@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
-    private final String VIDEO_ID = "2-5Wv9UGkN8";
+    private final String VIDEO_ID = "20bpjtCbCz0";
 
     @BindView(R.id.youtube_player_view)
     YouTubePlayerView youTubePlayerView;
