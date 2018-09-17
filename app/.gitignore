@@ -227,5 +227,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# api keys
+./app/src/main/res/values/yotube_api_key.xml
+
 
 # End of https://www.gitignore.io/api/macos,android,windows,androidstudio
