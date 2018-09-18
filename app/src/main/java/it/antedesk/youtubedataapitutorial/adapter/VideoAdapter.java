@@ -100,8 +100,9 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoAdapter
             mClickHandler.onClick(selectedTrailer);
         }
     }
-    public void setVideosData(List<String> trailersData) {
-        videoList = trailersData;
+
+    public void setVideosData(List<String> data) {
+        videoList = data;
         notifyDataSetChanged();
     }
 }
