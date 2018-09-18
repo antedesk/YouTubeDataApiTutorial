@@ -9,6 +9,20 @@
         android:id="@+id/youtube_fragment"
         android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+    <View
+        android:id="@+id/separator_view"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/thickness"
+        android:layout_margin="@dimen/margin_10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/youtube_fragment" />
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/video_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/separator_view" />
 </RelativeLayout>
