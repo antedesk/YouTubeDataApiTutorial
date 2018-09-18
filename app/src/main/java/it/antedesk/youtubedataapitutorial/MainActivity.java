@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity implements YouTubePlayer.OnI
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RECOVERY_REQUEST) {
-            getSupportFragmentManager().findFragmentById(R.id.youtube_fragment);
+            mYuoTubePlayerFrag =
+                    (YouTubePlayerSupportFragment) getSupportFragmentManager().findFragmentById(R.id.youtube_fragment);
         }
     }
 }
